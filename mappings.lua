@@ -4,6 +4,7 @@ M.dap = {
   plugin = true,
   n = {
     ["<leader>db"] = { "<cmd> DapToggleBreakpoint <CR>" },
+    ["<leader>dc"] = { "<cmd> DapContinue <CR>" },
     ["<leader>dus"] = {
       function ()
         local widgets = require('dap.ui.widgets');
